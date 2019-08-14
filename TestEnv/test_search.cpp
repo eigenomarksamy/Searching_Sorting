@@ -26,7 +26,7 @@ void testLinearSearch(void)
     printArray(arr_search, arr_size);
     result = linearSearch(arr_search, arr_size, to_search);
     (-1 == result) ? cout << "Element not in array!" << "\n" :
-            cout << "Element at: " << result;
+            cout << "Element at: " << result << "\n";
 }
 
 void testBinarySearch(void)
@@ -47,7 +47,7 @@ void testBinarySearch(void)
     printArray(arr_search, arr_size);
     result = binarySearch(arr_search, left_index, right_index, to_search);
     (-1 == result) ? cout << "Element not in array!" << "\n" :
-            cout << "Element at: " << result;
+            cout << "Element at: " << result << "\n";
 }
 
 void testJumpSearch(void)
@@ -65,7 +65,7 @@ void testJumpSearch(void)
     printArray(arr_search, arr_size);
     result = jumpSearch(arr_search, arr_size, to_search);
     (-1 == result) ? cout << "Element not in array!" << "\n" :
-            cout << "Element at: " << result;
+            cout << "Element at: " << result << "\n";
 }
 
 void testInterpolationSearch(void)
@@ -83,7 +83,7 @@ void testInterpolationSearch(void)
     printArray(arr_search, arr_size);
     result = interpolationSearch(arr_search, arr_size, to_search);
     (-1 == result) ? cout << "Element not in array!" << "\n" :
-            cout << "Element at: " << result;
+            cout << "Element at: " << result << "\n";
 }
 
 static void printArray(int arr[], int size)
